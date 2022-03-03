@@ -23,7 +23,7 @@ contract StakingPool is AccessControl, ReentrancyGuard
         uint256 amount; // Amount of staked tokens provided by user
         uint256 rewardDebt; // Reward debt  
         uint256 timestamp; // The time when user staked tokens
-        uint256 weight; // user weight increases 10 times each block
+        uint256 weight; // user weight each block
         uint256 startblock; // block when user setted his/her amount
     }
 
@@ -255,7 +255,7 @@ contract StakingPool is AccessControl, ReentrancyGuard
 
         // to avoid user weight = 0
         if(block.number - userInfo[user].startblock > 0)
-            userInfo[user].weight *= 10 * (block.number - userInfo[user].startblock);
+            userInfo[user].weight *= (block.number - userInfo[user].startblock);
 
         // calculate reward and update old data
         if(interval >= TEN_MINUTES)
@@ -265,6 +265,7 @@ contract StakingPool is AccessControl, ReentrancyGuard
             userInfo[user].startblock = block.number;
         }
     }
+    //3673,3384794015
 
 
 

@@ -11,7 +11,7 @@ Contract address:
 
 Token address INT: 0x39B9883F970BFDCf8Ad9D13fE383959AF987d3c9
 
-Token address LP: 0xaD287aBf946954420DD7C8B9302df6591aDC1Bdb
+Token address LP: 0x212FDaaEd9699ED0239c1857470Aa174711FB950
 
 
 - OpenZeppelin library: [link](https://github.com/OpenZeppelin/openzeppelin-contracts)
