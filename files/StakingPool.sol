@@ -255,7 +255,7 @@ contract StakingPool is AccessControl, ReentrancyGuard
 
         // to avoid user weight = 0
         if(block.number - userInfo[user].startblock > 0)
-            userInfo[user].weight *= (block.number - userInfo[user].startblock);
+            userInfo[user].weight += (block.number - userInfo[user].startblock);
 
         // calculate reward and update old data
         if(interval >= TEN_MINUTES)

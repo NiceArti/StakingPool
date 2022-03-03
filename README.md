@@ -3,11 +3,11 @@
 Staking Pool contract for UniswapV2LP and INT
 
 
-Link to deployed contract: [link](https://kovan.etherscan.io/address/0xaD287aBf946954420DD7C8B9302df6591aDC1Bdb)
+Link to deployed contract: [link](https://kovan.etherscan.io/address/0xDf669ADDf5d3a5b2F4af9B22CDd2630d9912b7F8)
 
 
 Contract address:
-0xaD287aBf946954420DD7C8B9302df6591aDC1Bdb
+0xDf669ADDf5d3a5b2F4af9B22CDd2630d9912b7F8
 
 Token address INT: 0x39B9883F970BFDCf8Ad9D13fE383959AF987d3c9
 
