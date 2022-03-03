@@ -3,15 +3,15 @@
 Staking Pool contract for UniswapV2LP and INT
 
 
-Link to deployed contract: [link](https://kovan.etherscan.io/address/0x3b0A527bb10CB0B4F3026badd2bF64B7E6786d6f)
+Link to deployed contract: [link](https://kovan.etherscan.io/address/0xaD287aBf946954420DD7C8B9302df6591aDC1Bdb)
 
 
 Contract address:
-0x3b0A527bb10CB0B4F3026badd2bF64B7E6786d6f
+0xaD287aBf946954420DD7C8B9302df6591aDC1Bdb
 
 Token address INT: 0x39B9883F970BFDCf8Ad9D13fE383959AF987d3c9
 
-Token address USDT: 0x39B9883F970BFDCf8Ad9D13fE383959AF987d3c9
+Token address LP: 0xaD287aBf946954420DD7C8B9302df6591aDC1Bdb
 
 
 - OpenZeppelin library: [link](https://github.com/OpenZeppelin/openzeppelin-contracts)
@@ -36,4 +36,3 @@ Token address USDT: 0x39B9883F970BFDCf8Ad9D13fE383959AF987d3c9
 | --- | --- |
 | `npx hardhat initialDeposit --amount some_amount --network kovan` | set initial deposit of claimable tokens |
 | `npx hardhat withdrawAllTokens --network kovan` | withdraw all claimable tokens that remain in the contract |
-<!-- 0x3Be9De2E8cF39BC661181E21406a7eE265f3C06d -->
