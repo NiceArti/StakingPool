@@ -1,0 +1,20 @@
+import { ethers } from "hardhat";
+
+async function main() 
+{
+  const tokenForClaim = '0x39B9883F970BFDCf8Ad9D13fE383959AF987d3c9';
+  const tokenLP = '0x9eacD4317B9623cb43b6afBe121E2A9a2426AA2b';
+
+  const StakingPool = await ethers.getContractFactory("StakingPool");
+  const stakingPool = await StakingPool.deploy(tokenForClaim, tokenLP);
+
+  await stakingPool.deployed();
+
+  console.log("StakingPool deployed to:", stakingPool.address);
+}
+
+
+main().catch((error) => {
+  console.error(error);
+  process.exitCode = 1;
+});
